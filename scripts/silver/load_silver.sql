@@ -1,6 +1,6 @@
 /*
 This Load_silver.sql will do a ETL(Extract,Transform,Load) from the bronze layer
-In this layer, The data is cleaned,Transformed and standarized,integrated and loaded
+In this layer, The data is cleaned,Transformed and standarized and loaded
 */
 CREATE OR REPLACE PROCEDURE silver.load_silver()
 LANGUAGE plpgsql
